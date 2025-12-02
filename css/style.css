@@ -1,0 +1,76 @@
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cantainer {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header start */
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_text {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #263238;
+}
+
+.navigator {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav_links {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #263238;
+}
+
+.header_btns {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.login_btn{
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #4CAF4F;
+    background-color: white;
+}
+
+.sing_btn{
+    padding: 10px 20px;
+    border: 1px solid #4CAF4F;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #4CAF4F;
+}

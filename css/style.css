@@ -76,19 +76,23 @@ header {
   font-size: 14px;
   background-color: #4caf4f;
 }
+
 /* footer start */
 .footer {
   max-width: 1440px;
   width: 100%;
   height: 628px;
+  margin: auto;
   background-color: aliceblue;
 }
+
 .first_section_footer {
   width: 100%;
   height: 300px;
   background-color: aliceblue;
   padding: 32px 276px;
 }
+
 .footer_h2 {
   width: 787px;
   height: 152px;
@@ -99,6 +103,7 @@ header {
   margin-bottom: 32px;
   padding-left: 100px;
 }
+
 .footer_btn {
   width: 178px;
   height: 52px;
@@ -111,13 +116,16 @@ header {
   border-radius: 4px;
   background-color: #4caf4f;
 }
+
 .footer_btn_p {
   font-family: "Inter", sans-serif;
   color: #ffffff;
 }
+
 .fa-arrow-right {
   color: #ffffff;
 }
+
 .second_section_footer {
   width: 100%;
   height: 328px;
@@ -126,26 +134,31 @@ header {
   display: flex;
   gap: 125px;
 }
+
 .second_section_footers_text {
   width: 350px;
   height: 198px 165px;
   margin-left: 150px;
 }
+
 .footer_img {
   display: flex;
   gap: 9px;
   margin-bottom: 40px;
 }
+
 .footer_second_h2 {
   font-size: 25px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   color: #ffffff;
 }
+
 .footer_first_p {
   width: 350px;
   height: 48px;
 }
+
 .first_footer_p {
   font-family: "Inter", sans-serif;
   color: #ffffff;
@@ -153,12 +166,14 @@ header {
   font-weight: 400;
   margin-bottom: 10px;
 }
+
 .second_footer_p {
   font-family: "Inter", sans-serif;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
 }
+
 .footer_icons {
   display: flex;
   gap: 16px;
@@ -166,16 +181,19 @@ header {
   color: #ffffff;
   font-size: 25px;
 }
+
 .second_section_footer_second_text {
   width: 635px;
   height: 200px;
   display: flex;
   gap: 30px;
 }
+
 .footer_text_1 {
   width: 160px;
   height: 200px;
 }
+
 .footer_text_1_h2 {
   font-family: "Inter", sans-serif;
   color: #ffffff;
@@ -183,10 +201,12 @@ header {
   font-size: 20px;
   margin-bottom: 24px;
 }
+
 .footer_text_1_ps {
   width: 160px;
   height: 148px;
 }
+
 .footer_text_1_p {
   font-family: "Inter", sans-serif;
   color: #ffffff;
@@ -194,6 +214,7 @@ header {
   font-size: 14px;
   margin-bottom: 12px;
 }
+
 .footer_btn_second {
   width: 255px;
   height: 40px;
@@ -206,9 +227,10 @@ header {
   color: #ffffff;
   border-radius: 10px;
 }
+
 /* footer end */
 
-.info{
+.info {
   max-width: 1440px;
   width: 100%;
   height: 433px;

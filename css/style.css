@@ -207,3 +207,60 @@ header {
   border-radius: 10px;
 }
 /* footer end */
+
+.info{
+  max-width: 1440px;
+  width: 100%;
+  height: 433px;
+  display: flex;
+
+  .info-img {
+    width: 422px;
+    height: 433px;
+    margin-left: 150px;
+  }
+
+  .info-text {
+    margin-left: 50px;
+
+    .info-title {
+      font-size: 36px;
+      font-weight: 600;
+      width: 600px;
+      font-family: sans-serif;
+      color: #4D4D4D;
+      margin-top: 85px;
+    }
+
+    .info__desc {
+      width: 600px;
+      margin-top: 18px;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: sans-serif;
+      color: #717171;
+    }
+
+    .info-btn {
+      width: 151px;
+      height: 52px;
+      font-size: 16px;
+      font-family: sans-serif;
+      font-weight: 500;
+      color: white;
+      border: none;
+      background-color: #4CAF4F;
+      border-radius: 4px;
+      margin-top: 40px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .info-btn:hover {
+      background-color: white;
+      color: #4CAF4F;
+      border: 1px solid #4CAF4F;
+      border-radius: 5px;
+    }
+  }
+}

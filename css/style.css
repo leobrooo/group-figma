@@ -112,6 +112,51 @@ header {
 
 
 /* abbos end  */
+
+/* ikromjon's start */
+.text{
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #4d4d4d;
+    text-align: center;
+
+}
+.text p{
+    width: 450px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 31px;
+    margin-top: 100px;
+}
+.banner img{
+    width: 237px;
+    height: 199px;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ikromjon's end */
+
 /* footer start */
 .footer {
   max-width: 1440px;

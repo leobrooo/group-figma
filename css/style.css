@@ -17,7 +17,39 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+/*   muhammadbobur  */
+.box{
+ 
+  display: flex;
+  align-items: center;
+  gap: 104px;
 
+}
+.box_text{
+  width: 657px;margin-left: 144px;
+}
+.box_text h1{
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.box_text span{
+  color: #4CAF4F;
+}
+.box_text p{
+  margin-bottom: 32px;
+}
+.box_text button{
+  width: 128px;
+  height: 52px;
+  background-color: #4CAF4F;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+
+/*    muhammadbobur  */
 /* header start */
 header {
   height: 80px;

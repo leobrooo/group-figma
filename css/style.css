@@ -76,7 +76,42 @@ header {
   font-size: 14px;
   background-color: #4caf4f;
 }
+/* abbos start  */
+.wrapper_abbos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+}
+.wrapper_abbos_wrap{
+  width: 661px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.wrapper_abbos_wrap h3{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.wrapper_abbos_wrap p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #717171;
+}
+.btn_abbos{
+  width: 151px;
+  height: 52px;
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
 
+
+
+/* abbos end  */
 /* footer start */
 .footer {
   max-width: 1440px;

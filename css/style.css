@@ -17,7 +17,39 @@
   margin: 0 auto;
   padding: 0 15px;
 }
+/*   muhammadbobur  */
+.box{
+ 
+  display: flex;
+  align-items: center;
+  gap: 104px;
 
+}
+.box_text{
+  width: 657px;margin-left: 144px;
+}
+.box_text h1{
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.box_text span{
+  color: #4CAF4F;
+}
+.box_text p{
+  margin-bottom: 32px;
+}
+.box_text button{
+  width: 128px;
+  height: 52px;
+  background-color: #4CAF4F;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+
+/*    muhammadbobur  */
 /* header start */
 header {
   height: 80px;
@@ -76,6 +108,86 @@ header {
   font-size: 14px;
   background-color: #4caf4f;
 }
+/* abbos start  */
+.wrapper_abbos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+}
+.wrapper_abbos_wrap{
+  width: 661px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.wrapper_abbos_wrap h3{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.wrapper_abbos_wrap p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #717171;
+}
+.btn_abbos{
+  width: 151px;
+  height: 52px;
+  background-color: #4CAF4F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+/* abbos end  */
+
+/* ikromjon's start */
+.text{
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #4d4d4d;
+    text-align: center;
+
+}
+.text p{
+    width: 450px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 31px;
+    margin-top: 100px;
+}
+.banner img{
+    width: 237px;
+    height: 199px;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ikromjon's end */
 
 /* footer start */
 .footer {
